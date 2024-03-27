@@ -41,13 +41,12 @@ int main(int argc, char **argv)
 
             printf("%d\n", total);
             first = last = - 1;
-            //test
-            
+
             previous = c;
             c = fgetc(input);
             continue;
         }
-        else if (!isdigit(c) && c != '\n') {
+        else if (!isdigit(c)) {
             printf("%c", c);
             while (c != EOF && c != '\n' && !isdigit(c)) {
                 int appended = append_char(buffer, c);
