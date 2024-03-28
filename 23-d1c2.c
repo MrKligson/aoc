@@ -103,6 +103,7 @@ int main(int argc, char **argv)
         total += first * 10 + last;
     }
 
+    fclose(input);
     printf("\n%d\n", total);
 }
 

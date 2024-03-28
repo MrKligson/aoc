@@ -40,5 +40,6 @@ int main(int argc, char **argv)
         total += first + last;
     }
 
+    fclose(input);
     printf("%d\n", total);
 }
