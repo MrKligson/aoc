@@ -46,7 +46,7 @@ int main(int argc, char **argv)
         total += (test_game(elf, i));
     }
 
-    close(input);
+    fclose(input);
     printf("%d\n", total);
 }
 

@@ -39,7 +39,7 @@ int main(int argc, char **argv)
         total += games[i].red * games[i].green * games[i].blue;;
     }
 
-    close(input);
+    fclose(input);
     printf("%d\n", total);
 }
 
