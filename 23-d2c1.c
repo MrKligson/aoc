@@ -26,8 +26,9 @@ int main(int argc, char **argv)
         return 1;
     }
 
-    char line[200];
-    while (fgets(line, 200, input) != NULL) {
+    const int n_line = 200;
+    char line[n_line];
+    while (fgets(line, n_line, input) != NULL) {
         if (strncmp(line, "Game", 4) != 0) {
             continue;
         }
@@ -45,6 +46,7 @@ int main(int argc, char **argv)
         total += (test_game(elf, i));
     }
 
+    close(input);
     printf("%d\n", total);
 }
 
