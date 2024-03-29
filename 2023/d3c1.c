@@ -12,7 +12,7 @@ typedef struct Neighbor
 // #define FILENAME "text/test.txt"
 // #define n_lines 10
 // #define n_columns 10
-#define FILENAME "text/23-d3c1.txt"
+#define FILENAME "text/d3c1.txt"
 #define n_lines 140
 #define n_columns 140
 

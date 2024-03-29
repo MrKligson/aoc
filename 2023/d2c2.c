@@ -10,7 +10,7 @@ typedef struct Cube_set {
 
 // #define FILENAME "text/test.txt"
 // #define n_games 5
-#define FILENAME "text/23-d2c1.txt"
+#define FILENAME "text/d2c1.txt"
 #define n_games 100
 
 Cube_set games[n_games];
