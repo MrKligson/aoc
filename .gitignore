@@ -53,4 +53,4 @@ dkms.conf
 
 .vscode/
 bin/
-text/test.txt
+**/test.txt
